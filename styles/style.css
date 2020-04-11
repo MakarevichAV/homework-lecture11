@@ -1,1 +1,121 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  max-width: 1280px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 31px;
+  letter-spacing: 4px;
+  margin-right: 120px;
+  color: black;
+}
+
+.header .logo span {
+  color: #007aff;
+}
+
+.header .search-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header .search-panel input[name="search"] {
+  width: 325px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  padding: 0 14px;
+}
+
+.header .authorize {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .authorize .flex-el {
+  margin-left: 22px;
+}
+
+.header .authorize .icon {
+  width: 30px;
+  height: 28px;
+}
+
+.header .authorize .heart {
+  background: url(../images/ikons/heart.png) no-repeat center center/contain;
+}
+
+.header .authorize .basket {
+  background: url(../images/ikons/basket.png) no-repeat center center/contain;
+}
+
+.btn-blue-right-bend {
+  height: 40px;
+  padding: 0 14px;
+  background: #007AFF;
+  color: white;
+  font-size: 14px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.btn-blue {
+  height: 40px;
+  padding: 0 14px;
+  background: #007AFF;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-white {
+  height: 40px;
+  min-width: 100px;
+  padding: 0 20px;
+  background: white;
+  color: #757575;
+  font-size: 14px;
+  border: 1px solid #757575;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
