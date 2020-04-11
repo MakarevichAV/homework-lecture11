@@ -118,4 +118,28 @@
   border-radius: 3px;
   cursor: pointer;
 }
+
+.subhead {
+  background: #F4F4F4;
+}
+
+.subhead .nav {
+  min-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subhead .nav .nav-item {
+  font-size: 15px;
+  color: #737270;
+  margin-right: 34px;
+}
+
+.subhead .nav .nav-item:hover {
+  color: #007AFF;
+}
 /*# sourceMappingURL=style.css.map */
